@@ -1,5 +1,5 @@
 # NIU 2nd generation dashboard firmware 
-This is the Disassembly of the 2nd generation dashboard firmware from a NIU N1s electric scooter (Model 2018+)
+This is the Disassembly of the 2nd generation dashboard firmware from a NIU N1s aka NQi electric scooter (starting with model year 2018+)
 A label on the back of the case says "N1SPv20" and the firmware seems to be revision _NSHDBV04_
 
 # Hardware
@@ -11,4 +11,4 @@ Aditionally there are two USARTs, two SPI and two I2C controllers built in.
 To learn more about it visit https://www.myniu.org/2nd-gen-dashboard/
 
 # Code
-This is the "first shot" at the disassembly mainly adding the knwon addresses of the USARTs etc. hinting towards the functionality of those functions using them.
+This is the "first shot" at the disassembly mainly adding labels to the known addresses (e.g. USART1_base) hinting towards the functionality of those functions which are using them.
